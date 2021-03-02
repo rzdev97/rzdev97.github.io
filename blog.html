@@ -4,7 +4,7 @@ title: Blog Page
 ---
 <ul>
             <div class="container-fluid" style="padding:5%;">
-                        {{page.title}}
+                        <h2> {{page.title}}</h2>
             </div>
             {% for post in site.posts %}
                 <li ><a href="{{ post.url }}">{{ post.title }}</a></li>

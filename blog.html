@@ -2,14 +2,18 @@
 layout: page
 title: Blog Page
 ---
-<ul>
-            <div class="container-fluid" style="padding:5%;">
-                        <h2> {{page.title}}</h2>
-            </div>
-            {% for post in site.posts %}
-                <li ><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-</ul>
+{% for post in site.posts %}
+<div class="card-deck">
+    <div class="card">
+      <img class="card-img-top img-fluid" src="https://cdn.pixabay.com/photo/2019/07/19/12/45/connection-4348764_960_720.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+{% endfor %}      
    
    
 

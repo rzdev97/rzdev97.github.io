@@ -1,9 +1,9 @@
 ---
 title: About Alembic
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
+  ## Welcome
+  A Computer Science Student learning Cybersecurity
+feature_image: "https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 

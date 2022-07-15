@@ -1,5 +1,4 @@
-# rzdev97.github.io
-baseURL = "https://rzdev97.github.io/archie/"
+``` baseURL = "https://athul.github.io/archie/"
 languageCode = "en-us"
 title = "Archie"
 theme="archie"
@@ -21,7 +20,7 @@ paginate=3 # articles per page
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/rzdev97/archie"
+url = "https://github.com/athul/archie"
 
 [[params.social]]
 name = "Twitter"
@@ -54,3 +53,4 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
+```
